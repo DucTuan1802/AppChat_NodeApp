@@ -5,11 +5,7 @@ var io = require("socket.io").listen(server);
 var fs = require("fs");
 server.listen(process.env.PORT || 3000);
 
-console.log('Server Running');
-
-app.get("/", function(req, res){
-	res.sendFile(__dirname + "/index.html");	
-});
+console.log('Server Running Ver1.0');
 
 console.log('Server Test');
 
