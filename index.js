@@ -11,6 +11,8 @@ app.get("/", function(req, res){
 	res.sendFile(__dirname + "/index.html");	
 });
 
+console.log('Server Test');
+
 var arrayUser = [];
 var existFlag = true;
 io.sockets.on('connection',function(socket){
